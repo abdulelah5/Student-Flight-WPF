@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="requestFlight.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentMainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SupervisorMainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SupervisorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="requestFlight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentMainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SupervisorMainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SupervisorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
